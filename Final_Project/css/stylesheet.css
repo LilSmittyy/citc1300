@@ -1,0 +1,163 @@
+/* Overall Style */
+body {
+background-color: white;
+color: white;
+}
+
+h1 {
+    text-align: center;
+    line-height: 100px;
+}
+h1 , h2 {
+ text-align: center;
+ font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+    align-content: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+ul {align-content: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;}
+#container {
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+    padding: 5px;
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+    background-color: red;
+    font: black;
+    color: white;
+    display: inline-block;
+    margin: 0 25px;
+    block-size: 40px;
+    line-height: 40px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    margin-block: 25px 25px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+#banner {
+    width: 75%;
+    height: 55%;
+}
+
+#banner1 {
+    width: 85%;
+}
+
+
+#main3 {
+    display: flex;
+}
+
+#col1 {
+ width: 65%;
+ margin: 20px;
+ padding: 20px;
+ text-align: center;
+}
+
+#col2 {
+    width: 65%;
+    margin: 20px;
+ padding: 20px;
+}
+
+#col3 {
+    width: 65%;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#col4 {
+    width: 65%;
+}
+
+#banner2 {
+    width: 80%;
+}
+
+@media (min-width: 320px) {
+    nav {
+        background-color: black;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #banner2 {
+        width: 80%;
+    }
+    #main3 {
+        display: flex;
+    }
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) {
+    nav {
+        background-color: black;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #banner2 {
+        width: 80%;
+    }
+    #main3 {
+        display: flex;
+    }
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    nav {
+        background-color: black;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #banner2 {
+        width: 80%;
+    }
+    #main3 {
+        display: flex;
+    }
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+}
+
+
